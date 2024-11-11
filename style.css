@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Times New Roman';
+}
+
+#foodImage{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    display: none;
+    border-radius: 10px;
+    box-shadow: rgba(26, 12, 12, 0.2);
+}
+
+
+#foodItems{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(88, 198, 125);
+}
+
+#orderId{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    font-size: 24px;
+    color: #ff6600;
+    /* display: none; */
+}
+
+#orderButton{
+    margin-top: 20px;
+    background-color: rgb(114, 16, 16);
+    padding: 10px 20px;
+    color:white;
+    border-radius: 10px;
+}
+
+#orderButton:hover{
+    margin-top: 20px;
+    background-color: rgb(243, 122, 122);
+    padding: 10px 20px;
+    color:black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
